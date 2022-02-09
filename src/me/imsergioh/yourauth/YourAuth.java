@@ -39,6 +39,7 @@ public class YourAuth extends JavaPlugin {
         pm.registerEvents(new MoveEvent(), this);
         pm.registerEvents(new BlocksEvents(), this);
         pm.registerEvents(new CommandEvent(), this);
+        pm.registerEvents(new DamageEvent(), this);
 
         getCommand("register").setExecutor(new registerCMD());
         getCommand("login").setExecutor(new loginCMD());

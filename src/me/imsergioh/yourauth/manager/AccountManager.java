@@ -27,6 +27,8 @@ public class AccountManager {
         String mojangID = MojangAPI.getIDFromUsername(player.getName());
         String playerID = player.getUniqueId().toString().replace("-", "");
         if(mojangID.equals(playerID)){
+            player.sendMessage(Messages.loginSuccessfully);
+            ServerUtil.sendToServer(player, YourAuth.getPlugin().getPluginConfig().getConfig().getString("hub-server"));
             return true;
         }
         return false;

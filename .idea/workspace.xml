@@ -8,14 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="48d42723-2b8d-4e4a-b540-797eb06a86b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/YourAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/YourAuth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/manager/AccountManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/manager/AccountManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/util/Messages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/util/Messages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YourAuth/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YourAuth/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/YourAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/YourAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/event/QuitEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/event/QuitEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/manager/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/manager/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/util/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/util/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
