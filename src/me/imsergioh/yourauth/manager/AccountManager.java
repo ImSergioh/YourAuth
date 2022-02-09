@@ -36,9 +36,9 @@ public class AccountManager {
         UUID uuid = player.getUniqueId();
 
         if(isRegistered(uuid)){
-            player.sendMessage(Messages.fromMessagesConfig("login"));
+            player.sendMessage(Messages.login);
         } else {
-            player.sendMessage(Messages.fromMessagesConfig("register"));
+            player.sendMessage(Messages.register);
         }
     }
 
@@ -50,10 +50,10 @@ public class AccountManager {
                 account.setPassword(password);
                 accountMap.put(uuid, new Account(uuid, directory));
             } else {
-                Messages.fromMessagesConfig("passwordNoMatch");
+                player.sendMessage(Messages.passwordNoMatch);
             }
         } else {
-            Messages.fromMessagesConfig("alreadyRegistered");
+            player.sendMessage(Messages.alreadyRegistered);
         }
     }
 
@@ -62,12 +62,12 @@ public class AccountManager {
         if(isRegistered(uuid)){
             Account account = getAccount(uuid);
             if(password.equals(account.getPassword())){
-                player.sendMessage(Messages.fromMessagesConfig("loginSuccessfully"));
+                player.sendMessage(Messages.loginSuccessfully);
                 ServerUtil.sendToServer(player, YourAuth.getPlugin().getPluginConfig().getConfig().getString("hub-server"));
                 return true;
             }
         } else {
-            player.sendMessage(Messages.fromMessagesConfig("noRegistered"));
+            player.sendMessage(Messages.noRegistered);
         }
         return false;
     }

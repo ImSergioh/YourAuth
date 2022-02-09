@@ -20,7 +20,7 @@ public class loginCMD implements CommandExecutor {
             String password = args[0];
             accountManager.loginAccount((Player) sender, password);
         } else {
-            sender.sendMessage(Messages.fromMessagesConfig("loginUsage"));
+            sender.sendMessage(Messages.loginUsage);
         }
         return true;
     }

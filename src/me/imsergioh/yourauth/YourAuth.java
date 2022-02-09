@@ -25,7 +25,7 @@ public class YourAuth extends JavaPlugin {
         config.setupFile(true);
 
         messages = new PluginConfig(plugin.getDataFolder().toString(), "messages.yml");
-        config.setupFile(true);
+        messages.setupFile(true);
 
         this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
 

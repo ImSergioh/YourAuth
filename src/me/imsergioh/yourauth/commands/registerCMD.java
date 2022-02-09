@@ -21,7 +21,7 @@ public class registerCMD implements CommandExecutor {
             String confirmPassword = args[1];
             accountManager.registerAccount((Player) sender, password, confirmPassword);
         } else {
-            sender.sendMessage(Messages.fromMessagesConfig("registerUsage"));
+            sender.sendMessage(Messages.registerUsage);
         }
         return true;
     }

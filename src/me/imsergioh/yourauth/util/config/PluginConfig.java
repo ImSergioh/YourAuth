@@ -18,6 +18,8 @@ public class PluginConfig {
     private FileConfiguration config;
 
     public PluginConfig(String directoryPath, String fileName){
+        this.directoryPath = directoryPath;
+        this.fileName = fileName;
         new File(directoryPath).mkdirs();
         this.file = new File(directoryPath, fileName);
     }
@@ -31,7 +33,7 @@ public class PluginConfig {
                     e.printStackTrace();
                 }
             } else {
-                try (InputStream in = YourAuth.getPlugin().getResource("config.yml")) {
+                try (InputStream in = YourAuth.getPlugin().getResource(fileName)) {
                     Files.copy(in, file.toPath());
                 } catch (IOException e) {
                     e.printStackTrace();
