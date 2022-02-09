@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48d42723-2b8d-4e4a-b540-797eb06a86b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/manager/AccountManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/YourAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/YourAuth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
