@@ -16,6 +16,10 @@ public class YourAuth extends JavaPlugin {
         config = new PluginConfig(plugin.getDataFolder().toString(), "config.yml");
     }
 
+    public PluginConfig getPluginConfig() {
+        return config;
+    }
+
     public static YourAuth getPlugin() {
         return plugin;
     }

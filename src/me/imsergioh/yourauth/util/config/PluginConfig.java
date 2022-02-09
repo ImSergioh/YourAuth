@@ -1,8 +1,6 @@
 package me.imsergioh.yourauth.util.config;
 
-import me.imsergioh.authplus.AuthPlus;
 import me.imsergioh.yourauth.YourAuth;
-import net.md_5.bungee.config.Configuration;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
