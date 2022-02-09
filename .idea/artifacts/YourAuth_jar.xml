@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="YourAuth:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/YourAuth_jar</output-path>
+    <root id="archive" name="YourAuth.jar">
+      <element id="module-output" name="YourAuth" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../LIBS/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

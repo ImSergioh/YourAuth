@@ -1,0 +1,9 @@
+main: me.imsergioh.yourauth.YourAuth
+name: YourAuth
+version: 1.0
+author: ImSergioh
+
+commands:
+  login:
+
+  register:

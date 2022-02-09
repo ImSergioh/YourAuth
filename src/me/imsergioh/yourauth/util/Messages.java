@@ -11,7 +11,7 @@ public class Messages {
     }
 
     public static String fromMessagesConfig(String path){
-        return chatColor(YourAuth.getPlugin().getPluginConfig().getConfig().getString(path));
+        return chatColor(YourAuth.getPlugin().getMessages().getConfig().getString(path));
     }
 
 }

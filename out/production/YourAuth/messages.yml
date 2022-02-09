@@ -1,0 +1,8 @@
+alreadyRegistered: "&cTu cuenta ya está registrado."
+passwordNoMatch: "&cLa contraseña de confirmación no es igual."
+noRegistered: "&cTu cuenta no está registrada."
+register: "&cRegistrate con: /register <contraseña>"
+login: "&cInicia sesión con: /login <contraseña>"
+loginUsage: "&cUso correcto: /login <contraseña>"
+registerUsage: "&cUso correcto: /register <contraseña> <confirmación de la misma contraseña>"
+loginSuccessfully: "&aHas iniciado sesión!"
