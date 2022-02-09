@@ -14,6 +14,7 @@ public class YourAuth extends JavaPlugin {
         plugin = this;
 
         config = new PluginConfig(plugin.getDataFolder().toString(), "config.yml");
+        this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
     }
 
     public PluginConfig getPluginConfig() {
