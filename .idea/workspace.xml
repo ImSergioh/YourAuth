@@ -8,15 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48d42723-2b8d-4e4a-b540-797eb06a86b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/YourAuth_jar/YourAuth.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/YourAuth_jar/YourAuth.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/YourAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/YourAuth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/util/config/PluginConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YourAuth/me/imsergioh/yourauth/util/config/PluginConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/YourAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/YourAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/commands/loginCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/commands/loginCMD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/commands/registerCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/commands/registerCMD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/manager/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/manager/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/util/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/util/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/imsergioh/yourauth/util/config/PluginConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/imsergioh/yourauth/util/config/PluginConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

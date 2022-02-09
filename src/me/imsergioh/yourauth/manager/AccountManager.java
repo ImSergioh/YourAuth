@@ -78,10 +78,8 @@ public class AccountManager {
     }
 
     public Account getAccount(UUID uuid){
-        if(isRegistered(uuid)){
-            if(accountMap.containsKey(uuid)) {
-                accountMap.put(uuid, new Account(uuid, directory));
-            }
+        if(!accountMap.containsValue(uuid)){
+            accountMap.put(uuid, new Account(uuid, directory));
         }
         return accountMap.get(uuid);
     }
