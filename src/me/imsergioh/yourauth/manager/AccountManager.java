@@ -65,11 +65,19 @@ public class AccountManager {
                 player.sendMessage(Messages.loginSuccessfully);
                 ServerUtil.sendToServer(player, YourAuth.getPlugin().getPluginConfig().getConfig().getString("hub-server"));
                 return true;
+            } else {
+                player.kickPlayer(Messages.wrongPassword);
             }
         } else {
             player.sendMessage(Messages.noRegistered);
         }
         return false;
+    }
+
+    public void unloadAccount(Player player){
+        if(accountMap.containsValue(player.getUniqueId())){
+            accountMap.remove(player.getUniqueId());
+        }
     }
 
     public boolean isRegistered(UUID uuid){

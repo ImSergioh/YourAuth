@@ -12,7 +12,8 @@ public class Messages {
             login = chatColor("&cInicia sesión con: /login <contraseña>"),
             loginUsage = chatColor("&cUso correcto: /login <contraseña>"),
             registerUsage = chatColor("&cUso correcto: /register <contraseña> <confirmación de la misma contraseña>"),
-            loginSuccessfully = chatColor("&aHas iniciado sesión!");
+            loginSuccessfully = chatColor("&aHas iniciado sesión!"),
+            wrongPassword = chatColor("&cContraseña incorrecta.");
 
     public static String chatColor(String text) {
         return text.replace("&", "§");
